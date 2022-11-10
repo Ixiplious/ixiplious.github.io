@@ -16,6 +16,9 @@ a {
     text-decoration: none;
 
 }
+img{
+    border-radius: 16px;
+}
 button
 {
     background-color:  var(--accent-color);
