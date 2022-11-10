@@ -1,0 +1,32 @@
+
+/* This is a comment in CSS */
+:root {
+    --main-background-color: #181425;
+}
+body {
+    background-color:  #181425;
+    color: #ffffff;
+}
+p {
+    color: #ffffff;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+button
+{
+    background-color:  pink;
+    color: #181425;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    font-weight: bold;
+    box-shadow: black 0px 0px 10px;
+}
+
+/* The asterisk "element" applies to all elements */
+* {
+    box-sizing: border-box;
+}
