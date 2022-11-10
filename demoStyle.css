@@ -2,6 +2,7 @@
 /* This is a comment in CSS */
 :root {
     --main-background-color: #181425;
+    --accent-color: #e43b44 ;
 }
 body {
     background-color:  #181425;
@@ -17,7 +18,7 @@ a {
 }
 button
 {
-    background-color:  pink;
+    background-color:  var(--accent-color);
     color: #181425;
     border: none;
     border-radius: 8px;
